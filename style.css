@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;    
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    min-width: 100vw;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container {
+    height: 310px;
+    width: 310px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    float: left;
+    
+}
+
+.container-form {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    width: 100%;
+}
+
+.container-form form {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.container-form form input {
+    width: 100%;
+    padding: 7px 15px;
+    margin-top: .5rem;
+    outline: none;    
+    font-size: 0.95em;
+    border: 1px solid #a0c9ce;
+    border-radius: 20px;
+    line-height: 20px;
+    color: #2badaf;
+}
+
+
+
+.container a {
+    color:#176c6d;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 14px;
+    
+}
+
+.logo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    width: 131px;
+}
+
+.teclado {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    float: left;    
+    margin-top: 10px;
+    padding-right: 30px;
+}
+
+.mteclado {
+    width: 140px;
+    
+    
+}
+
+.mteclado input {
+    border: none;
+    margin-bottom: 6px;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    margin-right: 6px;
+    background: #44949d;
+    border-radius: 5px;
+    color: #fff;
+    transition: all .3s ease-in-out;
+}
+
+.mteclado input:hover {
+    background: #4a8990;
+}
+
+.tb-1 {
+    display: flex;
+}
+
+.tb-2 {
+    display: flex;
+}
+
+.tb-3 {
+    display: flex;
+}
+
+.id {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.id-input input {
+    width: 100%;
+    padding: 7px 15px;
+    margin-top: .5rem;
+    outline: none;    
+    font-size: 0.95em;
+    border: 1px solid #a0c9ce;
+    border-radius: 20px;
+    line-height: 20px;
+    color: #2badaf;
+}
+
+.buttom-l button{
+    margin-top: 8px;
+    text-align: center;
+    width: 100%;
+    padding: 7px;
+    font-size: 0.93em;
+    line-height: 20px;
+    font-size: 15px;
+    border-radius: 20px;
+    background: #ffc600;
+    color: #fff;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.buttom-l button:hover {
+    background: #f1bb00;
+}
+
+.botoes_login {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 32px;
+
+}
+
+.botoes_login1, .botoes_login2, .botoes_login3, .botoes_login4, .botoes_login5 {
+    display: flex;
+    background: #44949d;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 5px;
+    text-align: center;
+    transition: all .3s ease-in-out;
+
+    border: none;
+    margin-bottom: 6px;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    margin-right: 6px;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.botoes_login1:hover, .botoes_login2:hover, .botoes_login3:hover, .botoes_login4:hover, .botoes_login5:hover {
+    background: #4a8990;
+}
